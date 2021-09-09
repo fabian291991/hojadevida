@@ -1,5 +1,65 @@
+body{
+
+    font-family: 'Nanum Gothic', sans-serif;
+}
 header{
-    background-color: blue;
+    display: flex;
+    justify-content: space-evenly ;
+}
+header h1{
+    color: gray;
+}
+div h4{
+    background: rgb(38, 38, 255);
+    font-size: 20px;
+    width: auto;
+    height: 25px;
     color: white;
-    
+}
+header h1{
+    justify-content: flex-end;
+    text-align: center ;
+    padding-top: 50px;
+}
+h1{
+    padding-top: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}  
+article{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.list-group{
+    text-align: center;
+    margin: 1px;
+    list-style: none;
+    color: gray;
+
+}
+.list-group-item{
+    width: 250px;
+    height: 20px;
+    border: 1px solid gray;
+    margin: 4px;
+    color: gray;
+}
+.perfil_personal .list-group .list-group-item{
+    width: 90%;
+    height: 70px;
+    border-radius: 30px;
+}
+footer{
+    color: gray;
+
+    text-align: center;
+}
+footer h1{font-size: 14px;}
+footer img{
+    width: 20px;
+    height: 20px;
 }
